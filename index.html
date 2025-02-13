@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valentine</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="wrap animate pop">
+		<div class="overlay">
+			<div class="overlay-content animate slide-left delay-2">
+				<h1 class="animate slide-left pop delay-4">BHAVYA</h1>
+				<p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">I <em>LOVE
+						YOU</em></p>
+			</div>
+			<div class="image-content animate slide delay-5"></div>
+			<div class="dots animate">
+				<div class="dot animate slide-up delay-6"></div>
+				<div class="dot animate slide-up delay-7"></div>
+				<div class="dot animate slide-up delay-8"></div>
+			</div>
+		</div>
+		<div class="text">
+			<p>I'm so grateful to have you by my side. I think about you all the time, and just seeing your photo or
+				hearing your voice makes me smile. Your presence brightens my days, and even when we're apart, I feel
+				your love with me. you’re my confidante, my supporter, and my closest friend. Knowing that you believe
+				in me gives me the strength to take on any challenge and chase my dreams. Our journey together is just
+				beginning, and I can't wait to see what the future holds for us.
+			</p>
+			<h2>Will You be my valentine Kukki?</h2>
+			<div class="button">
+				<div><button id="love" onclick="myfunc()">YES</button>
+					<div id="myDIV">
+					</div>
+				</div>
+				<div><button id="faltu" onclick="myfunc2()">NO</button></div>
+			</div>
+			<div class="msg">
+				<div class="reply">
+					<p><u>Send me your thoughts write in the area and submit</u></p>
+					<form action="https://api.web3forms.com/submit" method="POST">
+						<input type="hidden" name="access_key" value="9464e16b-32b7-4eef-bf93-63433b68e00e">
+						<div>
+							<textarea rows="5" cols="45" name="yatin" id="bhavya"
+								placeholder="Please tell me what u thinks and what your heart holds for me???"></textarea>
+						</div>
+						<div>
+							<button type="submit">submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="showalert">
+		<div id="box">
+			<div class="heading">
+				This is Love you 3000 alert
+			</div>
+			<div class="content">
+				<p>PLEASE NA</p>
+				<p>YOU KNOW NA HOW MUCH I LOVE YOU</p>
+				<button type="button" id="confirm" onclick="hidealert()">
+					<p>Close</p>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="showalert2">
+		<div id="box2">
+			<div class="heading2">
+				THANKY U KUKKI, U MADE MY DAY
+			</div>
+			<div class="content2">
+				<p>I LOVE YOU 3000, LOVE YOU MORE THAN ANYTHING</p>
+				<button type="button" id="confirm" onclick="hidealert2()">
+					<p>Close</p>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="index.js"></script>
+
+</html>
